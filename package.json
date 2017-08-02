@@ -1,0 +1,25 @@
+{
+    "name": "ntcjs",
+    "version": "1.0.0",
+    "description": "CommonJS compatible wrapper for the name that color (ntc js) library http://chir.ag/projects/ntc/",
+    "main": "index.js",
+    "scripts": {
+        "test": "tape ./test/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pbojinov/name-that-color.git"
+    },
+    "keywords": ["name", "that", "color", "hex", "rgb", "hue", "ntc", "ntc.js"],
+    "author": "Petar Bojinov (petarbojinov@gmail.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pbojinov/name-that-color/issues"
+    },
+    "homepage": "https://github.com/pbojinov/name-that-color#readme",
+    "devDependencies": {
+        "tap": "^10.7.1",
+        "tap-spec": "^4.1.1",
+        "tape": "^4.8.0"
+    }
+}
