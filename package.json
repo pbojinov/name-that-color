@@ -1,7 +1,7 @@
 {
     "name": "ntcjs",
-    "version": "1.0.0",
-    "description": "CommonJS compatible wrapper for the name that color (ntc js) library http://chir.ag/projects/ntc/",
+    "version": "1.0.2",
+    "description": "A Node CommonJS compatible wrapper for the Name That Color library (ntc js) - http://chir.ag/projects/ntc/",
     "main": "index.js",
     "scripts": {
         "test": "tape ./test/*.js"
