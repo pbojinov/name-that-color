@@ -1,8 +1,8 @@
 declare const ntc: {
   init: () => void;
-  name: (color: any) => [string, string, boolean];
-  hsl: (color: any) => [number, number, number];
-  rgb: (color: any) => [number, number, number];
+  name: (color: string) => [string, string, boolean];
+  hsl: (color: string) => [number, number, number];
+  rgb: (color: string) => [number, number, number];
   names: [string, string][];
 };
 
